@@ -10,7 +10,7 @@ Forces `topcolor` and `bottomcolor` to match the color of the team.
 ### Team Menu v1.0
 Opens a team selection VGUI menu when you join the server. Auto assign puts you in the team with the least players.
 
-Commands:
+**Commands:**
 - `jointeam #` - joins the team number `#`, starting from index 1
 
 ![image](https://github.com/brokenphilip/HL1_Teamplay_Emporium/assets/13336890/dec51833-6c8c-4045-8978-6f28ef10692d)
