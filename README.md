@@ -6,6 +6,9 @@ All of the plugins in this repository have either been created or modified by me
 Check the "See also" section for more plugins not created by me which also enhance team gameplay.
 
 ## Plugins
+### CS to HL Teamplay Spawns v1.0
+Allows Counter-Strike 1.6 maps to be played for Half-Life Teamplay by assigning spawns to their respective teams. It will also work for other GoldSrc maps which use `info_player_start` and `info_player_deathmatch` entities for spawn locations.
+
 ### Force Player Team Colors v1.0
 Forces `topcolor` and `bottomcolor` to match the color of the team.
 
