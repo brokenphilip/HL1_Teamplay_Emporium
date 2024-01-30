@@ -3,13 +3,15 @@ An assorted collection of AMX Mod X plugins for Half-Life 1 which enhance the Te
 
 All of the plugins in this repository have either been created or modified by me. If you are an author of one of the plugins listed and you want them updated/taken down or similar, please let me know on Discord (`brokenphilip`) or create an issue.
 
+Check each plugin's source code for their respective change logs.
+
 Check the "See also" section for more plugins not created by me which also enhance team gameplay.
 
 ## Plugins
 ### CS to HL Teamplay Spawns v1.0
 Allows Counter-Strike 1.6 maps to be played for Half-Life Teamplay by assigning spawns to their respective teams. It will also work for other GoldSrc maps which use `info_player_start` and `info_player_deathmatch` entities for spawn locations.
 
-### Force Player Team Colors v1.0
+### Force Player Team Colors v1.1
 Forces `topcolor` and `bottomcolor` to match the color of the team.
 
 ![image](https://github.com/brokenphilip/HL1_Teamplay_Emporium/assets/13336890/6fed8a3d-955d-40e7-ae0d-5a1d9e7bad06)

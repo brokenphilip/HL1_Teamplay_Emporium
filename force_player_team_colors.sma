@@ -2,7 +2,8 @@
 #include <amxmisc>
 #include <fakemeta>
 
-#define VERSION "1.0"
+// 1.1 - Changing teams mid-game now updates their color
+#define VERSION "1.1"
 
 public plugin_init()
 {
@@ -11,7 +12,14 @@ public plugin_init()
 	if (get_cvar_num("mp_teamplay"))
 	{
 		register_forward(FM_ClientUserInfoChanged, "info_changed");
+		
+		register_event("TeamInfo", "team_info", "a"); 
 	}
+}
+
+public team_info()
+{
+	info_changed(read_data(1));
 }
 
 public info_changed(id)
